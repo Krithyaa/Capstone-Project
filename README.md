@@ -10,7 +10,7 @@ This project aims to design and simulate an intelligent, data-driven pricing eng
 
 All processing is handled in real-time using the **Pathway** stream processing engine, and results are visualized with **interactive Bokeh plots**.
 It intelligently updates prices based on:
--Occupancy patterns
+- Occupancy patterns
 - Queue lengths
 - Traffic congestion
 - Special events
@@ -18,6 +18,7 @@ It intelligently updates prices based on:
 - Competitive pricing from nearby lots
 
 **Tech Stack Used:**
+
 **Python**       | Core programming language                  
 **Pathway**      | Stream processing engine for real-time data ingestion and transformation 
 **Pandas**       | Pre/post-processing and advanced pricing logic 
@@ -28,29 +29,29 @@ It intelligently updates prices based on:
 
 
 **Project Architecture & Workflow**
-**1.Data Preprocessing:** Cleaning and organizing the time-series occupancy and pricing data.
+**1. Data Preprocessing:** Cleaning and organizing the time-series occupancy and pricing data.
 Raw data contains per-minute parking data across multiple lots.We clean and add necessary features:
--Timestamps
--Traffic, Queue Length
--Special Events
--Simulated geolocation for each lot
+- Timestamps
+- Traffic, Queue Length
+- Special Events
+- Simulated geolocation for each lot
 
-**2.Pricing Engine:** Created an algorithm to set prices dynamically based on demand forecasts and competitor prices.
--Model 0	price = 10 + (max_occ - min_occ) / capacity
--Model 1	Recursive: price[n] = price[n-1] + α × occ_rate
--Model 2	Weighted formula using queue, traffic, vehicle type, and special day
--Model 3	Adjusts based on nearby competitor lots' prices and distances
+**2. Pricing Engine:** Created an algorithm to set prices dynamically based on demand forecasts and competitor prices.
+- Model 0	price = 10 + (max_occ - min_occ) / capacity
+- Model 1	Recursive: price[n] = price[n-1] + α × occ_rate
+- Model 2	Weighted formula using queue, traffic, vehicle type, and special day
+- Model 3	Adjusts based on nearby competitor lots' prices and distances
 
-**3.Visualisation:** Each pricing model is plotted in real-time graphs using Bokeh+Panel
+**3. Visualisation:** Each pricing model is plotted in real-time graphs using Bokeh+Panel
 
-**4.Smart Rerouting** made available through a message
+**4. Smart Rerouting** made available through a message
 If a lot is full and nearby lots are cheaper → Suggest rerouting.
 
 
 Please find the attached report for further details on approach and implementation.
 
 References:
--https://github.com/pathwaycom/pathway
--https://www.geeksforgeeks.org/data-visualization/python-bokeh-tutorial-interactive-data-visualization-with-bokeh/
--https://online.hbs.edu/blog/post/what-is-dynamic-pricing
+- https://github.com/pathwaycom/pathway
+- https://www.geeksforgeeks.org/data-visualization/python-bokeh-tutorial-interactive-data-visualization-with-bokeh/
+- https://online.hbs.edu/blog/post/what-is-dynamic-pricing
 
