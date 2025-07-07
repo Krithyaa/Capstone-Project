@@ -19,11 +19,11 @@ It intelligently updates prices based on:
 
 **Tech Stack Used:**
 
-**Python**       | Core programming language                  
-**Pathway**      | Stream processing engine for real-time data ingestion and transformation 
-**Pandas**       | Pre/post-processing and advanced pricing logic 
-**Bokeh + Panel**| Real-time plotting and interactive dashboards 
-**Google Colab** | Notebook environment for simulation    
+- **Python**       | Core programming language                  
+- **Pathway**      | Stream processing engine for real-time data ingestion and transformation 
+- **Pandas**       | Pre/post-processing and advanced pricing logic 
+- **Bokeh + Panel**| Real-time plotting and interactive dashboards 
+- **Google Colab** | Notebook environment for simulation    
 
 **Architecture Diagram:**
 
