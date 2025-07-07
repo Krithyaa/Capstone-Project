@@ -26,6 +26,7 @@ It intelligently updates prices based on:
 - **Google Colab** | Notebook environment for simulation    
 
 **Architecture Diagram:**
+![image](https://github.com/user-attachments/assets/8683da2c-9910-427b-a0d9-bd59f5039c01)
 
 
 **Project Architecture & Workflow**
