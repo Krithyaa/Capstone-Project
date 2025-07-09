@@ -59,3 +59,18 @@ References:
 - https://www.geeksforgeeks.org/data-visualization/python-bokeh-tutorial-interactive-data-visualization-with-bokeh/
 - https://online.hbs.edu/blog/post/what-is-dynamic-pricing
 
+
+
+
+
+
+![1](https://github.com/user-attachments/assets/4e9291c8-29d4-49fd-87ee-c2fc50eb2086)
+![2](https://github.com/user-attachments/assets/7a4b3476-6feb-4e46-aab7-36f3cf1c8abf)
+![3](https://github.com/user-attachments/assets/1dc6d244-b8c3-49c1-9207-fae2183468e7)
+![4](https://github.com/user-attachments/assets/2ef18633-3d2b-457f-8363-ccc276b8fcad)
+![5](https://github.com/user-attachments/assets/19bf8fa8-f8e3-49a1-8f38-447adaf62d4d)
+
+![image](https://github.com/user-attachments/assets/5340e68a-d62c-4a98-840f-c101f0150480)
+
+
+
