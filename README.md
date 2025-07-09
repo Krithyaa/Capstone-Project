@@ -42,6 +42,8 @@ Raw data contains per-minute parking data across multiple lots.We clean and add 
 - Model 1	Recursive: price[n] = price[n-1] + α × occ_rate
 - Model 2	Weighted formula using queue, traffic, vehicle type, and special day
   
+  ![image](https://github.com/user-attachments/assets/45ceafae-85b7-42c0-ae3f-0d49e14b336b)
+
 
 **3. Visualisation:** Each pricing model is plotted in real-time graphs using Bokeh+Panel
 
