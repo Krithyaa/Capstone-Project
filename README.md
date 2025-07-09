@@ -44,6 +44,7 @@ Raw data contains per-minute parking data across multiple lots.We clean and add 
   
   ![image](https://github.com/user-attachments/assets/45ceafae-85b7-42c0-ae3f-0d49e14b336b)
 
+*To view the pricing plot for the 14 parking lots with Model 1 and Model 2, download the pricing_plot.html as raw file and view.*
 
 **3. Visualisation:** Each pricing model is plotted in real-time graphs using Bokeh+Panel
 
