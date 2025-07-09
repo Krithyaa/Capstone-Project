@@ -39,10 +39,9 @@ Raw data contains per-minute parking data across multiple lots.We clean and add 
 - Simulated geolocation for each lot
 
 **2. Pricing Engine:** Created an algorithm to set prices dynamically based on demand forecasts and competitor prices.
-- Model 0	price = 10 + (max_occ - min_occ) / capacity
 - Model 1	Recursive: price[n] = price[n-1] + α × occ_rate
 - Model 2	Weighted formula using queue, traffic, vehicle type, and special day
-- Model 3	Adjusts based on nearby competitor lots' prices and distances
+  
 
 **3. Visualisation:** Each pricing model is plotted in real-time graphs using Bokeh+Panel
 
